@@ -1,4 +1,4 @@
-export class AstriaAi {
+export class LamaAi {
     imgUrl: any;
     prompt: string;
     imgCount: number;
@@ -7,7 +7,7 @@ export class AstriaAi {
     filePath?: any;
     maskImg? :any;
 
-    private static astriaAi: AstriaAi;
+    private static lamaAi: LamaAi;
 
     private constructor() {
       if (!this.createdAt) {
@@ -16,10 +16,10 @@ export class AstriaAi {
     }
 
     public static getInstance() {
-      if (!AstriaAi.astriaAi) {
-        AstriaAi.astriaAi = new AstriaAi();
+      if (!LamaAi.lamaAi) {
+        LamaAi.lamaAi = new LamaAi();
       }
 
-      return AstriaAi.astriaAi;
+      return LamaAi.lamaAi;
     }
   }
