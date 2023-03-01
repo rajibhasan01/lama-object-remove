@@ -1,0 +1,12 @@
+/node_modules
+package-lock.json
+build
+npm-debug.log
+.DS_Store
+dist
+.env
+test.js
+modules
+config
+/uploaded-image/lama/*
+outputs
